@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arslan's Fitness Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        font-family: 'Baloo Bhaijaan 2', cursive;
+
+    }
+
+    .left img {
+        width: 150px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        /* border-radius: 10px; */
+    }
+
+    .left {
+        position: absolute;
+        left: 35px;
+        top: 10px;
+        display: inline-block;
+        /* border: 2px solid black; */
+
+
+    }
+
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: 12px auto;
+        /* border: solid rgb(51, 30, 248); */
+    }
+
+
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 50px;
+        /* border: 2px solid green; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin: 12px;
+        padding: 9px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(0, 8, 73);
+    }
+
+    .btn {
+        margin: 8px;
+        padding: 4px;
+        background: none;
+        border-radius: 20px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+
+    }
+
+    .btn:hover {
+        color: white;
+        background-color: rgb(1, 121, 51);
+        cursor: pointer;
+        border: none;
+
+
+    }
+
+    .container {
+        margin: 120px 147px;
+        padding: 73px 37px;
+        width: 50%;
+        /* border: 2px solid black; */
+        border-radius: 20px;
+    }
+
+
+    .container h1 {
+        color: rgb(194, 3, 3);
+        background-color: ghostwhite;
+        display: block;
+        width: 85%;
+        margin: auto;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        margin: 5px 25px;
+        padding: 10px 191px;
+        font-size: 15px;
+    }
+
+    .container button {
+        display: block;
+        width: 90%;
+        margin: auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="no image">
+            <div>Arslan Fitness</div>
+
+
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Trainer</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+
+            <button class="btn">Contact Us</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+        <div class="container">
+            <div>
+                <h1>Fill Form And Feel The Difference</h1>
+                <form action="noaction">
+                    <div class="form-group">
+
+                        <input type="text" placeholder="Enter your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter your Age">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter your Contact Number">
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </header>
+</body>
+
+</html>
